@@ -1,4 +1,4 @@
-package com.example.examplemod.biomes;
+package com.deeplake.examplemod.biomes;
 
 import net.minecraft.world.biome.Biome;
 

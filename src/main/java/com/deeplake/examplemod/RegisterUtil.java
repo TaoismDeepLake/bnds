@@ -1,7 +1,7 @@
-package com.example.examplemod;
+package com.deeplake.examplemod;
 
-import com.example.examplemod.blocks.RegisterBlocks;
-import com.example.examplemod.items.RegisterItem;
+import com.deeplake.examplemod.blocks.RegisterBlocks;
+import com.deeplake.examplemod.items.RegisterItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;

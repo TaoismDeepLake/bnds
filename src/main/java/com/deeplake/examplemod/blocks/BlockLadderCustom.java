@@ -1,6 +1,6 @@
-package com.example.examplemod.blocks;
+package com.deeplake.examplemod.blocks;
 
-import com.example.examplemod.RegisterUtil;
+import com.deeplake.examplemod.RegisterUtil;
 import net.minecraft.block.BlockLadder;
 
 public class BlockLadderCustom extends BlockLadder {

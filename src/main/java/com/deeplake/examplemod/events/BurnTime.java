@@ -1,4 +1,4 @@
-package com.example.examplemod.events;
+package com.deeplake.examplemod.events;
 
 import net.minecraft.init.Items;
 import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;

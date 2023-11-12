@@ -1,10 +1,9 @@
-package com.example.examplemod.blocks;
+package com.deeplake.examplemod.blocks;
 
-import com.example.examplemod.ModTabs;
-import com.example.examplemod.RegisterUtil;
+import com.deeplake.examplemod.ModTabs;
+import com.deeplake.examplemod.RegisterUtil;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 
 public class BlockBase extends Block {
     public BlockBase(String name, Material materialIn) {

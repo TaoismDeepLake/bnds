@@ -1,11 +1,10 @@
-package com.example.examplemod.items;
+package com.deeplake.examplemod.items;
 
-import com.example.examplemod.ModTabs;
-import com.example.examplemod.RegisterUtil;
+import com.deeplake.examplemod.ModTabs;
+import com.deeplake.examplemod.RegisterUtil;
 import com.google.common.collect.Multimap;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.BaseAttribute;
 import net.minecraft.entity.player.EntityPlayer;

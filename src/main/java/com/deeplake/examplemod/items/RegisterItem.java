@@ -1,6 +1,6 @@
-package com.example.examplemod.items;
+package com.deeplake.examplemod.items;
 
-import com.example.examplemod.ExampleMod;
+import com.deeplake.examplemod.Idealland;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -29,7 +29,7 @@ public class RegisterItem {
     public static final ItemBowBase BOW_5 = new ItemBowBase("bow5");
 
     public static final ItemArmor.ArmorMaterial DEMO_MAT = EnumHelper.addArmorMaterial(
-                    ExampleMod.MODID+":demo_armor", ExampleMod.MODID+":popolon_armor",
+                    Idealland.MODID+":demo_armor", Idealland.MODID+":popolon_armor",
             100,new int[]{2,3,4,5},10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1f)
             .setRepairItem(new ItemStack(BOW_2));
 
