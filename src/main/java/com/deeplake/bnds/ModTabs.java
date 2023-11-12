@@ -1,4 +1,4 @@
-package com.deeplake.examplemod;
+package com.deeplake.bnds;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;

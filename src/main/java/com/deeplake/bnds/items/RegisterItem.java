@@ -1,6 +1,6 @@
-package com.deeplake.examplemod.items;
+package com.deeplake.bnds.items;
 
-import com.deeplake.examplemod.Idealland;
+import com.deeplake.bnds.Idealland;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -23,20 +23,6 @@ import java.util.List;
 public class RegisterItem {
     public static final List<Item> ITEM_LIST = new ArrayList<>();
 //    public static final ItemBow BOW_1 = (ItemBow) new ItemBow().setRegistryName("bow1").setCreativeTab(ModTabs.TAB1).setUnlocalizedName("bow1");
-    public static final ItemBowBase BOW_2 = new ItemBowBase("bow2");
-    public static final ItemBowBase BOW_3 = new ItemBowBase("bow3");
-    public static final ItemBowBase BOW_4 = new ItemBowBase("bow4");
-    public static final ItemBowBase BOW_5 = new ItemBowBase("bow5");
-
-    public static final ItemArmor.ArmorMaterial DEMO_MAT = EnumHelper.addArmorMaterial(
-                    Idealland.MODID+":demo_armor", Idealland.MODID+":popolon_armor",
-            100,new int[]{2,3,4,5},10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1f)
-            .setRepairItem(new ItemStack(BOW_2));
-
-    public static final ItemArmorBase DEMO_HEAD = new ItemArmorBase("demo_armor_1",DEMO_MAT, EntityEquipmentSlot.HEAD);
-    public static final ItemArmorBase DEMO_CHEST = new ItemArmorBase("demo_armor_2",DEMO_MAT, EntityEquipmentSlot.CHEST);
-    public static final ItemArmorBase DEMO_LEG = new ItemArmorBase("demo_armor_3",DEMO_MAT, EntityEquipmentSlot.LEGS);
-    public static final ItemArmorBase DEMO_FEET = new ItemArmorBase("demo_armor_4",DEMO_MAT, EntityEquipmentSlot.FEET);
 
     @SubscribeEvent
     public static void handleItem(RegistryEvent.Register<Item> event)

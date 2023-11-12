@@ -1,7 +1,7 @@
-package com.deeplake.examplemod.items;
+package com.deeplake.bnds.items;
 
-import com.deeplake.examplemod.ModTabs;
-import com.deeplake.examplemod.RegisterUtil;
+import com.deeplake.bnds.ModTabs;
+import com.deeplake.bnds.RegisterUtil;
 import net.minecraft.item.ItemBow;
 
 public class ItemBowBase extends ItemBow {

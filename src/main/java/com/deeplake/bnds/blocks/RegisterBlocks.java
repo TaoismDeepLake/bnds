@@ -1,6 +1,6 @@
-package com.deeplake.examplemod.blocks;
+package com.deeplake.bnds.blocks;
 
-import com.deeplake.examplemod.Idealland;
+import com.deeplake.bnds.Idealland;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.event.RegistryEvent;
@@ -15,7 +15,13 @@ public class RegisterBlocks {
 
     public static final List<Block> BLOCK_LIST = new ArrayList<>();
 
-    public static final Block BLOCK_1 = new BlockBase("block_1",Material.ROCK);
+    public static final Block[] BASE_COLOR =
+            {
+                    new BlockBase("block_1",Material.ROCK);
+            }
+
+
+
 
 
     @SubscribeEvent
